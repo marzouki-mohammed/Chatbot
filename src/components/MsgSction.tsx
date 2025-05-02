@@ -10,7 +10,7 @@ interface MsgSectionProps {
 
 const MsgSction = ({ msg, reponse }: MsgSectionProps) => {
   return (
-    <div className="col-12 d-flex flex-column gap-1" style={{ maxWidth: "600px" }}>
+    <div className="col-12 d-flex flex-column gap-1" style={{ maxWidth: "700px" }}>
       <div className="msg d-flex flex-column rounded-2 gap-2 p-2">
         <Question text={msg} />
         <Answer text={reponse} />
