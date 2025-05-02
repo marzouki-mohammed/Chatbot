@@ -8,7 +8,7 @@ class Assistans {
   constructor() {
     const gemini = googleAi.getGenerativeModel({ model: "gemini-2.0-flash" });
     this.chat = gemini.startChat({ history: [] });
-  }
+  } 
 
   async sendMessage(message: string): Promise<string> {
     try {
